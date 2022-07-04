@@ -14,5 +14,8 @@ public class LinkedListMain {
 		System.out.println("Inserting Element");
 		linkedlist.insertAtSpecificIndex(2, 40);
 		linkedlist.display();
+		linkedlist.deleteAtSpecificIndex(2);
+		System.out.println("The Size of the LinkedList is :" +linkedlist.size());
+		linkedlist.display();
 	}
 }
