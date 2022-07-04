@@ -155,7 +155,7 @@ public class LinkedList {
 			}
 			// Connecting new Node with right side elements
 			newNode.next = right;
-
+			
 			// Connecting left side elements with new Node
 			left.next = newNode;
 		}
